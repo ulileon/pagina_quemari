@@ -1,0 +1,414 @@
+/*============ process_area css ============*/
+.process_area{
+    background-image: -moz-linear-gradient( -42deg, rgba(73,49,230,0.9) 0%, rgb(73,49,230) 100%);
+    background-image: -webkit-linear-gradient( -42deg, rgba(73,49,230,0.9) 0%, rgb(73,49,230) 100%);
+    background-image: -ms-linear-gradient( -42deg, rgba(73,49,230,0.9) 0%, rgb(73,49,230) 100%);
+    position: relative;
+    z-index: 1;
+    .dot_one{
+        left: 0;
+        top: 150px;
+        z-index:-1;
+    }
+    .dot_two{
+        right: 0;
+        bottom: 100px;
+        z-index:-1;
+    }
+}
+.process_item{
+    color: #fff;
+    img{
+        margin-bottom: 30px;
+    }
+    h4{
+        font-size: 24px;
+        position: relative;
+        padding-top: 25px;
+        margin-bottom: 25px;
+        color: #fff;
+        &:before{
+            content: attr(data-text);
+            position: absolute;
+            left: 0;
+            top: -10px;
+            font-size: 60px;
+            font-weight: 600;
+            color: rgba(255,255,255,0.10);
+        }
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+/*============ process_area css ============*/
+
+/*============ testimonial area css ============*/
+.testimonial_area{
+    background-image: -moz-linear-gradient( -42deg, rgba(73,49,230,0.9) 0%, rgb(73,49,230) 100%);
+    background-image: -webkit-linear-gradient( -42deg, rgba(73,49,230,0.9) 0%, rgb(73,49,230) 100%);
+    background-image: -ms-linear-gradient( -42deg, rgba(73,49,230,0.9) 0%, rgb(73,49,230) 100%);
+    padding: 100px 0px;
+}
+.testimonial_slider {
+    padding-left: 30px;
+    .slick-list{
+        padding: 0px !important;
+        .item{
+            transform: scale(0.77);
+            transition: all 0.5s linear;
+            padding-bottom: 10px;
+            .media{
+                background: #fff;
+                align-items: center;
+                padding: 25px 30px 22px;
+                border-radius: 5px;
+                opacity: 0.5;
+                transition: all 0.3s linear;
+                .media-body{
+                    position: relative;
+                }
+                .img{
+                    width: 62px;
+                    height: 62px;
+                    border-radius: 50%;
+                    margin-right: 30px;
+                }
+                h5{
+                    font-size: 20px;
+                    color: #101010;
+                    margin-bottom: 10px;
+                }
+                p{
+                    margin-bottom: 0;
+                    color: #777777;
+                }
+                .quote_img{
+                    right: 10px;
+                    top: -6px;
+                }
+            }
+            &.slick-center{
+                transform: scale(1);
+                .media{
+                    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+.clients_inner{
+    position: relative;
+    padding-right: 65px;
+    padding-top: 75px;
+    .quote_img{
+        position: absolute;
+        top: 0;
+    }
+    .s_section_title{
+        margin-bottom: 25px;
+    }
+    p{
+        color: #fff;
+        margin-bottom: 38px;
+    }
+    .ab_clients_logo{
+        display: flex;
+        align-items: center;
+        .ab_clients_logo_item{
+            width: calc(100% / 3);
+            margin-bottom: 42px;
+        }
+    }
+}
+.p_btn_w{
+    background: #fff;
+    color: #101010;
+    font-size: 13px;
+}
+/*============ testimonial area css ============*/
+
+/*============ clients_logo_area css ============*/
+.clients_logo_area{
+    .sc_clients_logo_info{
+        &:before,&:after{
+            display: none;
+        }
+    }
+}
+/*============ clients_logo_area css ============*/
+
+/*============ team_area css ============*/
+.team_area{
+    .row{
+        margin-bottom: -55px;
+    }
+}
+.team_item{
+    margin-bottom: 55px;
+    display: inline-block;
+    .team-img{
+        position: relative;
+        z-index: 1;
+        &:before{
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            background-image: -moz-linear-gradient( -42deg, rgba(106,71,235,0.7) 0%, rgb(19,12,222) 100%);
+            background-image: -webkit-linear-gradient( -42deg, rgba(106,71,235,0.7) 0%, rgb(19,12,222) 100%);
+            background-image: -ms-linear-gradient( -42deg, rgba(106,71,235,0.7) 0%, rgb(19,12,222) 100%);
+            opacity: 0;
+            transition: all 0.9s;
+            z-index: 0;
+        }
+    }
+    .social_link{
+        position: absolute;
+        top: 52%;
+        transform: translateY(-50%);
+        text-align: center;
+        width: 100%;
+        overflow: hidden;
+        li{
+            transform: translateY(100%);
+            transition: all 0.4s;
+            a{
+                color: #fff;
+            }
+        }
+    }
+    h4{
+        font-size: 20px;
+        color: #000000;
+        font-weight: 600;
+        margin-bottom: 0;
+        padding-top: 20px;
+        span{
+            font-size: 14px;
+            color: #777777;
+            font-weight: 400;
+        }
+    }
+    &:hover{
+        .team-img{
+            &:before{
+                opacity: 1;
+            }
+        }
+        .social_link{
+            li{
+                transform: translateY(0);
+            }
+        }
+    }
+}
+/*============ team_area css ============*/
+
+
+/*============ services area css here ============*/
+.services_area{
+    background-color: #f8f9fc;
+    .scroll_service_item{
+        border: 0px solid transparent;
+        background-color: #fff;
+        color: #777777;
+        margin-bottom: 30px;
+        z-index: 1;
+        .number{
+            color: rgba(16, 16, 16, .20);
+            @include transition;
+            margin-bottom: 75px;
+        }
+        @media (max-width: 1400px){
+            .scroll_service_item .icon {
+                top: 40px;
+                max-width: 52px;
+            }
+        }
+
+        h3{
+            color: #101010;
+            @include transition;
+        }
+        p{
+           @include transition;
+        }
+        h2{
+            line-height: 45px;
+        }
+        .p_btn{
+            font-size: 13px;
+            text-transform: uppercase;
+            border: 1px solid rgb(126, 126, 126);
+            background-color: transparent;
+            color: #101010;
+            padding: 12px 49px;
+            &:hover{
+                border: 1px solid transparent;
+            }
+        }
+        &:before{
+            height: 100%;
+            z-index: -1;
+            @include transition;
+            background-image: -moz-linear-gradient( -42deg, #4d33e6 0%, #774fed 100%);
+            background-image: -webkit-linear-gradient( -42deg, #4d33e6 0%, #774fed 100%);
+            background-image: -ms-linear-gradient( -42deg, #4d33e6 0%, #774fed 100%);
+        }
+        &:hover{
+            box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+            h3,p{
+                color: #fff;
+            }
+            h2{
+                color: rgba($color: #fff, $alpha: .2);
+            }
+            img{
+                -webkit-filter: brightness(0) invert(1);
+                filter: brightness(0) invert(1);
+            }
+            .p_btn{
+                background-color: #fff;
+                border: 1px solid #fff;
+            }
+        }
+    }
+    .scroll_service_item:hover:before {
+        opacity: 1;
+        height: 100%;
+    }
+}
+/*============ servicesarea css end ============*/
+
+/*============ services area css here ============*/
+.services_details_area{
+    .services_details_sidebar{
+        background-color: #f8f9fc;
+        @media (max-width: 991px){
+            margin-bottom: 50px;
+            br{
+                display: none;
+            }
+        }
+        .nav-link{
+            display: flex;
+            align-items: center;
+            color: #777777;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 0 30px;
+            border-radius: 0;
+            @media (min-width: 991px) and (max-width: 1200px){
+                padding: 0 20px;
+            }
+            .single_nav_menu{
+                position: relative;
+                padding-left: 40px !important;
+            }
+            img{
+                max-width: 24px;
+                margin-right: 12px;
+                transition: all 100ms linear 0s;
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .single_nav_menu{
+                padding: 21px 0;
+                display: block;
+                width: 100%;            
+                border-bottom: 1px solid #dfe0e2;
+            }
+            &:last-child{
+                .single_nav_menu{
+                    border-bottom: 0;
+                }
+            }
+            &.active, &:hover{
+                color: #fff;
+                background-color: transparent;
+                background-image: -moz-linear-gradient( -42deg, #774fed 0%, #4d33e6 100%);
+                background-image: -webkit-linear-gradient( -42deg, #774fed 0%, #4d33e6 100%);
+                background-image: -ms-linear-gradient( -42deg, #774fed 0%, #4d33e6 100%);
+                .single_nav_menu{
+                    border-bottom: 1px solid transparent;
+                }
+                img{
+                    -webkit-filter: brightness(0) invert(1);
+                    filter: brightness(0) invert(1);
+                }
+            }
+        }
+    }
+    .service_details_content{
+        @media (min-width: 1200px){
+            padding-left: 18px;
+        }
+        h2{
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 25px;
+            @media (max-width: 991px){
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+            @media (min-width: 991px) and (max-width: 1200px){
+                margin-bottom: 20px;
+            }
+        }
+        p{
+            margin-bottom: 27px;
+            @media (max-width: 991px){
+                margin-bottom: 15px;
+            }
+        }
+        img{
+            margin: 8px 0 35px;
+            @media (max-width: 991px){
+                margin: 5px 0 25px;
+            }
+            @media (min-width: 991px) and (max-width: 1200px){
+                margin: 5px 0 25px;
+            }
+        }
+        ul{
+            margin: 0;
+            padding: 17px 0 0 0;
+            @media (max-width: 991px){
+                padding: 10px 0 0 0;
+            }
+            @media (min-width: 991px) and (max-width: 1200px){
+                padding: 10px 0 0 0;
+            }
+            li{
+                list-style: none;
+                position: relative;
+                padding-left: 17px;
+                margin: 13px 0;
+                line-height: 28px;
+                &:after{
+                    position: absolute;
+                    content: "";
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 50%;
+                    background-color: #000;
+                    left: 0;
+                    top: 10px;
+                    
+                }
+                &:last-child{
+                    margin: 13px 0 0;
+                }
+            }
+        }
+    }
+}
+/*============ servicesarea css end ============*/
+
+

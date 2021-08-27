@@ -1,0 +1,44 @@
+1630089431a:1:{s:15:"section_six.htm";a:6:{s:8:"fileName";s:15:"section_six.htm";s:7:"content";s:2219:"==
+<div class="section wave_two_section_six">
+    <div class="t_first p_absoulte"><img class="layer layer2" data-depth="-0.20" src="{{ 'assets/img/home_three/clients_plan_bottom.png'|theme }}" alt=""></div>
+    <div class="t_two p_absoulte"><img class="layer layer2" data-depth="0.20" src="{{ 'assets/img/home_three/clients_plan.png'|theme }}" alt=""></div>
+    <div class="intro">
+        <div class="container custom_container">
+            <h2 class="s_section_title">CLIENTES</h2>
+            <div class="sc_clients_logo_info">
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/AibeFruitsTestimonios.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/apotex.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/canto.jpg'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/flexbeel.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/inmsa.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/solfort.jpg'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/KnowledgeTransferLLC.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/distintec.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/mueblerias_alonso.jpeg'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/cmillonario.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/intresco.png'|theme }}" alt="" style="max-height: 50px;"></a>
+            </div>
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1626801050;s:6:"markup";s:2215:"<div class="section wave_two_section_six">
+    <div class="t_first p_absoulte"><img class="layer layer2" data-depth="-0.20" src="{{ 'assets/img/home_three/clients_plan_bottom.png'|theme }}" alt=""></div>
+    <div class="t_two p_absoulte"><img class="layer layer2" data-depth="0.20" src="{{ 'assets/img/home_three/clients_plan.png'|theme }}" alt=""></div>
+    <div class="intro">
+        <div class="container custom_container">
+            <h2 class="s_section_title">CLIENTES</h2>
+            <div class="sc_clients_logo_info">
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/AibeFruitsTestimonios.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/apotex.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/canto.jpg'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/flexbeel.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/inmsa.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/solfort.jpg'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/KnowledgeTransferLLC.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/distintec.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/mueblerias_alonso.jpeg'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/cmillonario.png'|theme }}" alt="" style="max-height: 50px;"></a>
+                <a href="#" class="c_logo_item"><img src="{{ 'assets/img/clientes/intresco.png'|theme }}" alt="" style="max-height: 50px;"></a>
+            </div>
+        </div>
+    </div>
+</div>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

@@ -1,0 +1,126 @@
+1630089430a:1:{s:10:"Layout.htm";a:6:{s:8:"fileName";s:10:"Layout.htm";s:7:"content";s:3251:"==
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
+    <!-- Mapa -->
+    <link rel="stylesheet" href="jquery-jvectormap-2.0.1.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="{{ 'assets/css/jquery-jvectormap-2.0.5.css'|theme }}">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ 'assets/vendors/bootstrap/css/bootstrap.min.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/vendors/fullpage/fullpage.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/vendors/elagent-icon/style.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assetes/vendors/animation/animate.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/vendors/magnify-popup/magnific-popup.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/vendors/swiper/swiper.min.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/vendors/spiling/splitting.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/responsive.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/custom.css'|theme }}">
+    <title>Quemari</title>
+</head>
+<body>
+    
+    <div id="wrapper">
+        <!-- Header -->
+        {% partial 'site/header' %}       
+    
+        <div class="main">
+        <!-- Content -->
+            {% page %}
+        </div>
+    
+        <!-- Footer -->
+        {% partial 'site/footer' %}
+            
+    </div><!-- End #wrapper -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{{ 'assets/js/jquery-3.2.1.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/bootstrap/js/popper.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/bootstrap/js/bootstrap.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/fullpage/scroll-overflow.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/wow/wow.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/fullpage/fullpage.js'|theme }}"></script>
+    <script src="{{ 'assets/js/parallax.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/particale/particles.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/particale/app.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/magnify-popup/jquery.magnific-popup.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/swiper/swiper.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/spiling/splitting.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/universal-tilt.js'|theme }}"></script>
+    <script src="{{ 'assets/js/custom.js'|theme }}"></script>
+    <script src="{{ 'assets/js/jquery-jvectormap-2.0.5.js'|theme }}"></script>
+    <script src="{{ 'assets/js/jquery-jvectormap-world-mill-en.js'|theme }}"></script>
+</body>
+</html>";s:5:"mtime";i:1620253662;s:6:"markup";s:3247:"<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet">
+    <!-- Mapa -->
+    <link rel="stylesheet" href="jquery-jvectormap-2.0.1.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="{{ 'assets/css/jquery-jvectormap-2.0.5.css'|theme }}">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ 'assets/vendors/bootstrap/css/bootstrap.min.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/vendors/fullpage/fullpage.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/vendors/elagent-icon/style.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assetes/vendors/animation/animate.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/vendors/magnify-popup/magnific-popup.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/vendors/swiper/swiper.min.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/vendors/spiling/splitting.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/responsive.css'|theme }}">
+    <link rel="stylesheet" href="{{ 'assets/css/custom.css'|theme }}">
+    <title>Quemari</title>
+</head>
+<body>
+    
+    <div id="wrapper">
+        <!-- Header -->
+        {% partial 'site/header' %}       
+    
+        <div class="main">
+        <!-- Content -->
+            {% page %}
+        </div>
+    
+        <!-- Footer -->
+        {% partial 'site/footer' %}
+            
+    </div><!-- End #wrapper -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{{ 'assets/js/jquery-3.2.1.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/bootstrap/js/popper.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/bootstrap/js/bootstrap.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/fullpage/scroll-overflow.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/wow/wow.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/fullpage/fullpage.js'|theme }}"></script>
+    <script src="{{ 'assets/js/parallax.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/particale/particles.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/particale/app.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/magnify-popup/jquery.magnific-popup.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/swiper/swiper.min.js'|theme }}"></script>
+    <script src="{{ 'assets/vendors/spiling/splitting.min.js'|theme }}"></script>
+    <script src="{{ 'assets/js/universal-tilt.js'|theme }}"></script>
+    <script src="{{ 'assets/js/custom.js'|theme }}"></script>
+    <script src="{{ 'assets/js/jquery-jvectormap-2.0.5.js'|theme }}"></script>
+    <script src="{{ 'assets/js/jquery-jvectormap-world-mill-en.js'|theme }}"></script>
+</body>
+</html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

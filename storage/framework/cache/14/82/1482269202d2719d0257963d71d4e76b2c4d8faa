@@ -1,0 +1,46 @@
+1630089431a:1:{s:15:"site/footer.htm";a:6:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:1408:"==
+<footer class="full_footer p_absoulte">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-3">
+                    <ul class="list-unstyled social_icon social_icon_two">
+                        <li><a href="https://www.facebook.com/ConsultoriayDesarrolloQuemari/"><i class="social_facebook" target="_blank"></i></a></li>
+                        <li><a href="https://www.instagram.com/consultoriaydesarrolloquemari/"><i class="social_instagram" target="_blank"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/consultor%C3%ADa-y-desarrollo-quem%C3%A1ri/?originalSubdomain=mx"><i class="social_linkedin" target="_blank"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-sm-6 col-6">
+                    <div class="copyright">&copy; 2020 <a href="www.quemari.com">Consultoría y desarrollo Quemári</a>. Todos los derechos reservados</div>
+                </div>
+                <div class="col-sm-3 col-3">
+                    <div class="pr_details_nav h_slider_nav align-items-center">
+                        <span class="prev" id="moveUp">Prev</span>
+                        <span class="next moveUp" id="moveDown">Next</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>";s:5:"mtime";i:1620170469;s:6:"markup";s:1404:"<footer class="full_footer p_absoulte">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-3">
+                    <ul class="list-unstyled social_icon social_icon_two">
+                        <li><a href="https://www.facebook.com/ConsultoriayDesarrolloQuemari/"><i class="social_facebook" target="_blank"></i></a></li>
+                        <li><a href="https://www.instagram.com/consultoriaydesarrolloquemari/"><i class="social_instagram" target="_blank"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/consultor%C3%ADa-y-desarrollo-quem%C3%A1ri/?originalSubdomain=mx"><i class="social_linkedin" target="_blank"></i></a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-sm-6 col-6">
+                    <div class="copyright">&copy; 2020 <a href="www.quemari.com">Consultoría y desarrollo Quemári</a>. Todos los derechos reservados</div>
+                </div>
+                <div class="col-sm-3 col-3">
+                    <div class="pr_details_nav h_slider_nav align-items-center">
+                        <span class="prev" id="moveUp">Prev</span>
+                        <span class="next moveUp" id="moveDown">Next</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

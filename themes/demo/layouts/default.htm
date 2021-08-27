@@ -1,0 +1,134 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>October CMS - {{ this.page.title }}</title>
+        <meta name="description" content="{{ this.page.meta_description }}">
+        <meta name="title" content="{{ this.page.meta_title }}">
+        <meta name="author" content="OctoberCMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="generator" content="OctoberCMS">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}">
+        <link href="{{ 'assets/css/vendor.css'|theme }}" rel="stylesheet">
+        <link href="{{ 'assets/css/theme.css'|theme }}" rel="stylesheet">
+        
+<!-------------Mapa---------------->
+        <link rel="stylesheet" media="all" href="{{'assets/css/mapa/jquery-jvectormap.css'|theme}}"/>
+        
+        <script src="{{'assets/javascript/mapa/jquery-1.8.2.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/jquery-jvectormap.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/jquery-mousewheel.js'|theme}}"></script>
+
+        <script src="{{'assets/javascript/mapa/jvectormap.js'|theme}}"></script>
+
+        <script src="{{'assets/javascript/mapa/abstract-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/abstract-canvas-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/abstract-shape-element.js'|theme}}"></script>
+        
+        <script src="{{'assets/javascript/mapa/svg-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/svg-group-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/svg-canvas-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/svg-shape-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/svg-path-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/svg-circle-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/svg-image-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/svg-text-element.js'|theme}}"></script>
+        
+        <script src="{{'assets/javascript/mapa/vml-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/vml-group-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/vml-canvas-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/vml-shape-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/vml-path-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/vml-circle-element.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/vml-image-element.js'|theme}}"></script>
+        
+        <script src="{{'assets/javascript/mapa/map-object.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/region.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/marker.js'|theme}}"></script>
+        
+        <script src="{{'assets/javascript/mapa/vector-canvas.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/simple-scale.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/ordinal-scale.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/numeric-scale.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/color-scale.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/legend.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/data-series.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/proj.js'|theme}}"></script>
+        <script src="{{'assets/javascript/mapa/map.js'|theme}}"></script>  
+        
+        <script src="{{'assets/javascript/mapa/jquery-jvectormap-world-mill-en.js'|theme}}"></script>
+        
+        <script>
+            jQuery.noConflict();
+            jQuery(function(){
+              var $ = jQuery;
+        
+              $('#focus-init').click(function(){
+                $('#map1').vectorMap('set', 'focus', {scale: 1, x: 0.5, y: 0.5, animate: true});
+              });
+              $('#map1').vectorMap({
+                map: 'world_mill_en',
+                panOnDrag: true,
+                focusOn: {
+                  x: 0.5,
+                  y: 0.5,
+                  scale: 2,
+                  animate: true
+                },
+                series: {
+                  regions: [{
+                    scale: ['#C8EEFF', '#0071A4'],
+                    normalizeFunction: 'polynomial',
+                    values: {
+                      "MX": 1004.04,/*Mexico*/
+        			  "CO": 283.11,/*Colombia*/
+        			  "EC": 61.49,/*Ecuador*/
+        			  "ES": 1374.78,/*España*/
+        			  "CL": 199.18,/*Chile*/
+        			  "US": 14624.18,/*Estados Unidos*/
+                    }
+                  }]
+                }
+              });
+            })
+         </script>
+ <!--------------------------------->
+        {% styles %}
+    </head>
+    <body>
+    
+        <!-------------Mapa---------------->
+        <div style="height: 400px"></div>
+  <div id="map1" style="width: 600px; height: 400px"></div>
+  <button id="focus-init">Return to the initial state</button>
+    <!--------------------------------->
+
+        <!-- Header -->
+        <header id="layout-header">
+            {% partial 'site/header' %}
+        </header>
+
+        <!-- Content -->
+        <section id="layout-content">
+            {% page %}
+        </section>
+
+        <!-- Footer -->
+        <footer id="layout-footer">
+            {% partial 'site/footer' %}
+        </footer>
+
+        <!-- Scripts -->
+        <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
+        <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
+        <script src="{{ 'assets/javascript/app.js'|theme }}"></script>
+<!-------------Mapa---------------->
+        
+<!--------------------------------->
+        {% framework extras %}
+        {% scripts %}
+
+    </body>
+</html>

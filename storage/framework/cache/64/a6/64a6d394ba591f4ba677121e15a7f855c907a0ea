@@ -1,0 +1,24 @@
+1630089430a:1:{s:14:"bienvenido.htm";a:9:{s:8:"fileName";s:14:"bienvenido.htm";s:7:"content";s:377:"title = "Bienvenido"
+url = "/"
+layout = "Layout"
+is_hidden = 0
+==
+<div id="wavescroll">
+    {% partial 'section_one' %}
+    {% partial 'section_two' %}
+    {% partial 'section_three' %}
+    {% partial 'section_four' %} 
+    {% partial 'section_five' %}
+    {% partial 'section_six' %}
+    {#{% partial 'section_eight' %}#}
+    {% partial 'section_seven' %}
+</div>";s:5:"mtime";i:1626800203;s:6:"markup";s:306:"<div id="wavescroll">
+    {% partial 'section_one' %}
+    {% partial 'section_two' %}
+    {% partial 'section_three' %}
+    {% partial 'section_four' %} 
+    {% partial 'section_five' %}
+    {% partial 'section_six' %}
+    {#{% partial 'section_eight' %}#}
+    {% partial 'section_seven' %}
+</div>";s:4:"code";N;s:5:"title";s:10:"Bienvenido";s:3:"url";s:1:"/";s:6:"layout";s:6:"Layout";s:9:"is_hidden";s:1:"0";}}
